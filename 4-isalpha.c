@@ -3,7 +3,7 @@
 /**
  * _isalpha - function that checks for alphabets
  *
- * 0c: parameter to be checked
+ * @c: parameter to be checked
  *
  * Return: 1 if it is an alphabet
  * and 0 otherwise
