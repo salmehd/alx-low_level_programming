@@ -10,13 +10,13 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-int count_of_bytes;
+int ct_of_byte;
 
-for (count_of_bytes = 0; count_of_bytes < n && src[count_of_bytes] != '\0'; count_of_bytes++)
-dest[count_of_bytes] = src[count_of_bytes];
+for (ct_of_byte = 0; ct_of_byte < n && src[ct_of_byte] != '\0'; ct_of_byte++)
+dest[ct_of_byte] = src[ct_of_byte];
 
-for (; count_of_bytes < n; count_of_bytes++)
-dest[count_of_bytes] = '\0';
+for (; ct_of_byte < n; ct_of_byte++)
+dest[ct_of_byte] = '\0';
 
 return (dest);
 }
