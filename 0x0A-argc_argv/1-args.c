@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main -  a program that prints argument pass to it
  * @argc: argument count
@@ -8,9 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-	for (int i = 0; i < argc; i++)
-	{
-		printf("%d\n", argv[]);
-		return (0);
-	}
+	(void) argv;
+
+	printf("%d\n", argc - 1);
+
+	return (0);
 }
