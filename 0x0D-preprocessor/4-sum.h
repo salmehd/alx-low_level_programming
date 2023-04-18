@@ -2,7 +2,7 @@
 #define SUM_H
 
 /**
- * a function-like macro SUM(x, y)
+ * main -  a function-like macro SUM(x, y)
  */
 
 #define SUM(x, y) ((x) + (y))
