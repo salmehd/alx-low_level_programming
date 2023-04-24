@@ -10,7 +10,7 @@ int op_add(int a, int b)
 	return (a + b);
 }
 /**
- * op_sub - subtraction 
+ * op_sub - subtraction
  * @a: subtr a
  * @b: subtra b
  * Return: difference of a and b
@@ -20,7 +20,7 @@ int op_sub(int a, int b)
 	return (a - b);
 }
 /**
- * op_mul - subtraction 
+ * op_mul - subtraction
  * @a: multpl a
  * @b: multl b
  * Return: product of a and b
@@ -45,7 +45,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod - subtraction 
+ * op_mod - subtraction
  * @a: subr a
  * @b: subr b
  * Return: result of a and b
