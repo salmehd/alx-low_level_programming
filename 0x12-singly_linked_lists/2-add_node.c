@@ -20,7 +20,7 @@ int _strlen(const char *s)
  * *add_node - function that adds a new node at the beginning of a list_t
  * @head: data of struct node
  * @str:  type of struct
-* Return: elements of the str 
+ * Return: elements of the str
  */
 
 list_t *add_node(list_t **head, const char *str)
