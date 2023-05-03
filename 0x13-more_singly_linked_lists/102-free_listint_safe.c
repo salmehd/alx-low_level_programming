@@ -3,7 +3,7 @@
 /**
  * free_listp2 - function that frees a linked list
  * @head: head of a list
- * Return: 0 at success 
+ * Return: 0 at success
  */
 
 void free_listp2(listp_t **head)
